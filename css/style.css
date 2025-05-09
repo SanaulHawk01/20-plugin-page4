@@ -1,0 +1,55 @@
+/*font family*/
+
+    @font-face{
+    src: url(../);
+    font-family: ;
+}
+
+/*font family*/
+
+/*Common css Start*/
+
+:root{
+    --popr:"";
+    --bl: #000000;
+    --as: #282A35;
+}
+
+body{
+    
+}
+
+/*Common css End*/
+
+/*Header start*/
+
+header{
+    padding: 20px 0px;
+    background-color: var(--as);
+}
+
+.title{
+    margin: 50px 0 15px;
+    text-align: center;
+}
+
+.h_nav{}
+
+.h_br{
+    padding: 0;
+    font-size: 25px;
+    color: white;
+}
+
+.h_nav_to{}
+
+.h_nav_coll{}
+
+.h_nav_ul{}
+
+.h_nav_ul li a{
+    padding-left: 30px !important;
+    color: white !important;
+}
+
+/*Header end*/
