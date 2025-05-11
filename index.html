@@ -6,6 +6,7 @@
     <title>20-Plug in</title>
     <link rel="icon" href="images/icon.png">
     <!-- CSS Link -->
+    <link rel="stylesheet" href="vendor/eocjs-newsticker/css/eocjs-newsticker.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
@@ -49,9 +50,134 @@
     </header>
 
     <!-- Navbar end -->
+
+    <!-- scrolling-marquee -->
+
+    <section class="scrolling">
+      <div class="container">
+        <div class="title">
+          <h1>Animated Gauge</h1>
+        </div>
+        <div class="scma_content">
+          <div class="row">
+            <div class="col-lg-6">
+              
+              <div class="scma_item sm_fl">
+
+                <div id="scma_jg" class="scma_gauge scma_size"></div>
+
+                <div class="scma_cl"></div>
+
+              </div>
+
+            </div>
+            <div class="col-lg-6">
+              
+              <div class="scma_item sm_gr">
+
+                <div id="gg1" style="width: 200px; height: 150px;"></div>
+
+                <button id="gg12_refresh" class="btn btn-primary button grey">Random Refresh</button>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- eocjs-newsticker -->
+
+    <section class="newsticker">
+      <div class="container">
+        <div class="title">
+          <h1>Eocjs Newsticker</h1>
+        </div>
+        <div class="eone_content">
+          <div class="row">
+            <div class="col-lg-6">
+              
+              <div class="eone_item">
+
+                <div id="eone_1">The quick brown fox jumps over the lazy dog</div>
+
+              </div>
+
+            </div>
+            <div class="col-lg-6">
+              
+              <div class="eone_item">
+
+                <div id="eone_2">The quick brown fox jumps over the lazy dog</div>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Parallax -->
+
+    <section class="parallax">
+      <div class="container">
+        <div class="title">
+          <h1>Parallax</h1>
+        </div>
+        <div class="pa_content">
+          <div class="row">
+            <div class="col-lg-12">
+              
+              <div class="pa_item">
+
+                <div class="parallax-window" data-parallax="scroll" data-image-src="images/img.jpg"></div>
+                <div class="parallax-window" data-parallax="scroll" data-image-src="images/img2.jpg"></div>
+                <div class="parallax-window" data-parallax="scroll" data-image-src="images/img3.jpg"></div>
+                <div class="parallax-window" data-parallax="scroll" data-image-src="images/img4.jpg"></div>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- cross-viewport -->
+
+    <section class="mwg_effect000">
+
+      <div class="title">
+        <h1>(Gsap) Inertia Plugin </h1>
+      </div>
+
+        <div class="medias">
+            <div class="media"><img src="images/icon.png" alt=""></div>
+            <div class="media"><img src="images/icon.png" alt=""></div>
+            <div class="media"><img src="images/icon.png" alt=""></div>
+            <div class="media"><img src="images/icon.png" alt=""></div>
+            <div class="media"><img src="images/icon.png" alt=""></div>
+            <div class="media"><img src="images/icon.png" alt=""></div>
+            <div class="media"><img src="images/icon.png" alt=""></div>
+            <div class="media"><img src="images/icon.png" alt=""></div>
+            <div class="media"><img src="images/icon.png" alt=""></div>
+            <div class="media"><img src="images/icon.png" alt=""></div>
+            <div class="media"><img src="images/icon.png" alt=""></div>
+            <div class="media"><img src="images/icon.png" alt=""></div>
+        </div>
+    </section>
     
     <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="vendor/cross-viewport/js/storyline.js"></script>
+    <script src="vendor/parallax/parallax.min.js"></script>
+    <script src="vendor/eocjs-newsticker/js/eocjs-newsticker.js"></script>
+    <script src="vendor/justgage/js/raphael.min.js"></script>
+    <script src="vendor/justgage/js/justgage.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/gsap.min.js"></script>
+    <script src="js/InertiaPlugin.min.js"></script>
     <script src="js/script.js"></script>
   </body>
 </html>
